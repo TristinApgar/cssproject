@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css Styling Project - Tristin Apgar</title>
+        <style>
+            body {
+                font-family: Arial;
+                text-align: center;
+            }
+
+            
+            p {
+                font-size: 16px;
+            }
+
+            .currentDegrees {
+                color: blue;
+            }
+
+            .underCurrentDegrees {
+                font-weight: lighter;
+            }
+
+            .days {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .degrees {
+                color: slategray;
+            }
+
+            #codedBy {
+                font-family: helvetica;
+                color: slategray;
+            }
+
+            button {
+                display: block;
+                margin: 20px auto;
+                border: 1px solid #1a64d6;
+                background: #1a64d6;
+                color: #fff;
+                font-size: 16px;
+                line-height: 22px;
+                padding: 16px 24px;
+                border-radius: 30px;
+                transition: all 200ms ease;
+                box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: white;
+                color:#1a64d6;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="currentDegrees">🌤</h1>
+        <h1 class="currentDegrees">Currently 21° in Tokyo</h1>
+        <h1 class="underCurrentDegrees">13° / <strong>23°</strong></p>
+        <br>
+        <p class="days">🌧Tomorrow</p>
+        <p class="degrees">10° / <strong>22°</strong></p>
+        <br>
+        <p class="days">🌥Saturday</p>
+        <p class="degrees">15° / <strong>17°</strong></p>
+        <br>
+        <p class="days">☀️Sunday</p>
+        <p class="degrees">25° / <strong>28°</strong></p>
+        <br>
+        <button>Change City</button>
+        <p id="codedBy">Coded by Tristin Apgar</p>
+    </body>
+</html>
